@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+@import 'swiper/css'; 
+@import 'swiper/css/pagination'; 
+@import 'swiper/css/navigation';
+
+
+@theme inline {
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+@theme {
+  --color-primary: #2677d9;
+}
+
+body {
+  background-color: #f7f8fa;
+}
+
+@media (prefers-color-scheme: dark) {
+}
