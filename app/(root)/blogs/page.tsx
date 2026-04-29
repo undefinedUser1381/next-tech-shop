@@ -1,4 +1,4 @@
-import Blogs from "../src/features/blog/components/Blogs";
+import Blogs from "@/app/src/features/blog/components/Blogs";
 
 export default function page() {
   return (

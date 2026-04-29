@@ -1,5 +1,5 @@
 import React from "react";
-import CareerJobs from "../src/features/career/componetns/CareerJobs/CareerJobs";
+import CareerJobs from "@/app/src/features/career/componetns/CareerJobs/CareerJobs"; 
 
 export default function page() {
   return (

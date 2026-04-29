@@ -1,4 +1,4 @@
-import ShopWrapper from "../src/features/shop/components/ShopWrapper";
+import ShopWrapper from "@/app/src/features/shop/components/ShopWrapper"; 
 
 export default function page() {
   return (
