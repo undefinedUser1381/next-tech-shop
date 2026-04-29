@@ -1,9 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import localFont from "next/font/local";
-import Header from "./src/components/shared/layout/Header/Header";
-import Footer from "./src/components/shared/layout/Footer/Footer";
-import MobileBottomBar from "./src/components/shared/layout/MobileBottomBar/MobileBottomBar";
 
 const vazirmatn = localFont({
   src: "../public/fonts/Vazirmatn/Vazirmatn-Regular.ttf",
@@ -25,11 +22,7 @@ export default function RootLayout({
   return (
     <html dir="rtl" lang="en">
       <body className={`${vazirmatn.className} antialiased`}>
-        <Header />
-
         {children}
-        <Footer />
-        <MobileBottomBar />
       </body>
     </html>
   );
